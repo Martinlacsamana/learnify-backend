@@ -1,0 +1,24 @@
+{
+  "name": "learnify-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martinlacsamana/learnify-backend.git"
+  },
+  "author": "Martin Lacsamana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martinlacsamana/learnify-backend/issues"
+  },
+  "homepage": "https://github.com/Martinlacsamana/learnify-backend#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "type" : "module"
+}

@@ -24,7 +24,6 @@ steps:
     - '--platform'
     - 'managed'
     - '--allow-unauthenticated'
-    - '--set-env-vars'
 
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud

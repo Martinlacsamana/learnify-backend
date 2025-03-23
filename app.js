@@ -1,6 +1,6 @@
 import express from "express";
 const app = express()
-const PORT = 3000;
+const PORT = 8080;
 
 import flashCardRoutes from "./src/routes/flashcard-routes.js"
 app.use('/v1/flashcard', flashCardRoutes) 

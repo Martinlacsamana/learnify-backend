@@ -11,7 +11,7 @@ RUN npm install
 # Copy resst of the files
 COPY . .
 
-EXPOSE 3000
+EXPOSE 8080
 
 
 CMD ["npm", "start"]
